@@ -1,5 +1,4 @@
 title: Jhonathan Ribeiro
-email: coderesph@gmail.com
 author: Jhonathan Ribeiro
 description: >- # this means to ignore newlines until "baseurl:"
   Bem vindo ao meu blog! Aqui você encontra artigos sobre tecnologia, ganhar dinheiro online,
@@ -22,8 +21,3 @@ plugins:
 # Build settings
 markdown: kramdown # Estilo do Markdown
 permalink: /:title/ # Configuração dos links do blog
-css_folder:  "/assets/css" # Caminho dos arquivos css
-js_folder:  "/assets/js" # Caminho dos arquivos js
-img_folder:  "/assets/img" # Caminho das imagens
-sass:
-    style: compressed # Configuração dos arquivos css gerados pelo sass, compressed gera o css minificado
