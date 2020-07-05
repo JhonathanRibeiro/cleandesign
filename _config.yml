@@ -1,55 +1,37 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you: 
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
-title: Your awesome title
-email: your-email@example.com
+title: Jhonathan Ribeiro
+email: coderesph@gmail.com
+author: Jhonathan Ribeiro
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Bem vindo ao meu blog! Aqui você encontra artigos sobre tecnologia, ganhar dinheiro online,
+  dicas, snippets e muito mais. FIque por dentro de todas as nossas novidades, se inscreva em 
+  nossa Newsletter. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
-
+facebook: https://www.facebook.com/Jhonathanjbr
+github:  https://github.com/JhonathanRibeiro
+instagram: https://www.instagram.com/jhonathanrjb
+twitter: https://twitter.com/Jhonathanjbr
+linkedin: https://www.linkedin.com/in/jhonathan-ribeiro
 # Build settings
+# Exibe somente o nome do post na url e sem .html
+permalink: /:title/
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-paginate-v2
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# PAGINATION
+pagination:
+  enabled: true
+  per_page: 5
+  paginate_path: "/page/:num/"
+  sort_reverse: true
+
+# Build settings
+markdown: kramdown # Estilo do Markdown
+permalink: /:title/ # Configuração dos links do blog
+css_folder:  "/assets/css" # Caminho dos arquivos css
+js_folder:  "/assets/js" # Caminho dos arquivos js
+img_folder:  "/assets/img" # Caminho das imagens
+sass:
+    style: compressed # Configuração dos arquivos css gerados pelo sass, compressed gera o css minificado
