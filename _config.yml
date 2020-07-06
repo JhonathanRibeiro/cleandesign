@@ -17,7 +17,8 @@ permalink: /:title/
 theme: minima
 plugins:
   - jekyll-feed
-
 # Build settings
 markdown: kramdown # Estilo do Markdown
 permalink: /:title/ # Configuração dos links do blog
+#compress
+
