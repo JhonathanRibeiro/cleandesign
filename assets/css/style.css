@@ -371,7 +371,60 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav-active .mobile-nav-toggle i {
   color: #fff;
 }
-
+/* config image in modalServices partial */
+img.img-modal-body {
+    width: 100%;
+    height: 36vh;
+    object-fit: cover;
+}
+/* config bx-checked in modalServices Blog Basic pach */
+i.bx.bx-check .bx-services {
+    margin: 0 3px!important;
+    font: caption!important;
+}
+.why-us .accordion-list .modalSection li {
+    padding: 5px!important;
+}
+i.bx.bx-check.bx-services {
+    position: inherit!important;
+    font-size: medium!important;
+    color: darkseagreen!important;
+}
+i.icofont-close {
+    position: inherit!important;
+    font-size: small!important;
+    color: #333!important;
+}
+/* config text modalSection Services dashed */
+.times {
+  text-decoration: line-through;
+}
+/* config accordion modalSection Services Blog */
+.accordion-list.modalSection {
+    padding: 0px!important;
+}
+/* config padding in modalServices m-body */
+.modal-body.text-justify.m-body {
+    padding-bottom: 1px;
+}
+/* config button close header in modalServices */
+button.close {
+    line-height: 25px;
+}
+/* config modalfooter in modalServices Suport */
+.modal-footer {
+  border-top: none!important;
+  padding: 0.25rem!important;
+}
+/* forçando cor white no button secondary */
+.btn-secondary {
+    color: #fff!important;
+}
+/* config alink-budget link de orçamento modalService shop */
+.alink-budget {
+  width: 100%;
+  padding: 0.25em;
+}
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
