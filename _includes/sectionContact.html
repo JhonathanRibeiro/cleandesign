@@ -53,9 +53,18 @@
                     </div>
                     <div class="form-group">
                         <label for="name">Assunto</label>
-                        <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4"
-                            data-msg="O assunto deve ter no mínimo 8 caracteres" />
-                        <div class="validate"></div>
+                        <div class="input-group mb-3">
+                            <select class="custom-select" name="subject" id="subject">
+                                <option selected>Assunto...</option>
+                                <option value="1">Site pessoal</option>
+                                <option value="2">Site institucional</option>
+                                <option value="3">Comércio eletrônico</option>
+                                <option value="4">Loja virtual</option>
+                                <option value="5">Catálogo eletrônico</option>
+                                <option value="6">Personalizado</option>
+                                <option value="7">Blog</option>
+                            </select>
+                        </div>
                     </div>
                     <div class="form-group">
                         <label for="name">Mensagem</label>
